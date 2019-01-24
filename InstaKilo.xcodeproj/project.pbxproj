@@ -15,6 +15,11 @@
 		28E0573821F8F6F500538A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0573721F8F6F500538A59 /* main.m */; };
 		28E0574221F8F6F500538A59 /* InstaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0574121F8F6F500538A59 /* InstaKiloTests.m */; };
 		28E0574D21F8F6F500538A59 /* InstaKiloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0574C21F8F6F500538A59 /* InstaKiloUITests.m */; };
+		28E0575C21F8FA2700538A59 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0575B21F8FA2700538A59 /* MyCollectionViewCell.m */; };
+		28E0575F21F8FA4400538A59 /* MyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0575E21F8FA4400538A59 /* MyHeader.m */; };
+		28E0576221F8FA5400538A59 /* MyFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0576121F8FA5400538A59 /* MyFooter.m */; };
+		28E0576821F9010700538A59 /* Imagee.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0576721F9010700538A59 /* Imagee.m */; };
+		28E0576B21F9051D00538A59 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0576A21F9051D00538A59 /* ImageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		28E0574821F8F6F500538A59 /* InstaKiloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKiloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E0574C21F8F6F500538A59 /* InstaKiloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaKiloUITests.m; sourceTree = "<group>"; };
 		28E0574E21F8F6F500538A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E0575A21F8FA2700538A59 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		28E0575B21F8FA2700538A59 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		28E0575D21F8FA4400538A59 /* MyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeader.h; sourceTree = "<group>"; };
+		28E0575E21F8FA4400538A59 /* MyHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHeader.m; sourceTree = "<group>"; };
+		28E0576021F8FA5400538A59 /* MyFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFooter.h; sourceTree = "<group>"; };
+		28E0576121F8FA5400538A59 /* MyFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFooter.m; sourceTree = "<group>"; };
+		28E0576621F9010700538A59 /* Imagee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Imagee.h; sourceTree = "<group>"; };
+		28E0576721F9010700538A59 /* Imagee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Imagee.m; sourceTree = "<group>"; };
+		28E0576921F9051D00538A59 /* ImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		28E0576A21F9051D00538A59 /* ImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +120,20 @@
 				28E0572921F8F6F300538A59 /* AppDelegate.m */,
 				28E0572B21F8F6F300538A59 /* ViewController.h */,
 				28E0572C21F8F6F300538A59 /* ViewController.m */,
+				28E0575A21F8FA2700538A59 /* MyCollectionViewCell.h */,
+				28E0575B21F8FA2700538A59 /* MyCollectionViewCell.m */,
+				28E0576921F9051D00538A59 /* ImageCell.h */,
+				28E0576A21F9051D00538A59 /* ImageCell.m */,
+				28E0575D21F8FA4400538A59 /* MyHeader.h */,
+				28E0575E21F8FA4400538A59 /* MyHeader.m */,
+				28E0576021F8FA5400538A59 /* MyFooter.h */,
+				28E0576121F8FA5400538A59 /* MyFooter.m */,
 				28E0572E21F8F6F300538A59 /* Main.storyboard */,
 				28E0573121F8F6F500538A59 /* Assets.xcassets */,
 				28E0573321F8F6F500538A59 /* LaunchScreen.storyboard */,
 				28E0573621F8F6F500538A59 /* Info.plist */,
+				28E0576621F9010700538A59 /* Imagee.h */,
+				28E0576721F9010700538A59 /* Imagee.m */,
 				28E0573721F8F6F500538A59 /* main.m */,
 			);
 			path = InstaKilo;
@@ -263,8 +288,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E0572D21F8F6F300538A59 /* ViewController.m in Sources */,
+				28E0576B21F9051D00538A59 /* ImageCell.m in Sources */,
 				28E0573821F8F6F500538A59 /* main.m in Sources */,
+				28E0576221F8FA5400538A59 /* MyFooter.m in Sources */,
+				28E0576821F9010700538A59 /* Imagee.m in Sources */,
+				28E0575C21F8FA2700538A59 /* MyCollectionViewCell.m in Sources */,
 				28E0572A21F8F6F300538A59 /* AppDelegate.m in Sources */,
+				28E0575F21F8FA4400538A59 /* MyHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
